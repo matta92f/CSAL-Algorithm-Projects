@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>796</width>
+    <height>601</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>873</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="Logo">
+    <property name="geometry">
+     <rect>
+      <x>18</x>
+      <y>30</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Fare Master - Add Record Pane/Logo.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="AddRecord">
+    <property name="geometry">
+     <rect>
+      <x>55</x>
+      <y>123</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Add Record</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Background">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>0</y>
+      <width>811</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(25, 4, 130);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MainShape">
+    <property name="geometry">
+     <rect>
+      <x>169</x>
+      <y>-7</y>
+      <width>691</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Fare Master - Add Record Pane/Shape 1.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DriverShape">
+    <property name="geometry">
+     <rect>
+      <x>184</x>
+      <y>-13</y>
+      <width>404</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Fare Master - Add Record Pane/Shape - Drive Information.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DriverInfoTitle">
+    <property name="geometry">
+     <rect>
+      <x>261</x>
+      <y>57</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(25, 4, 130);</string>
+    </property>
+    <property name="text">
+     <string>Driver Information</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DriverID">
+    <property name="geometry">
+     <rect>
+      <x>203</x>
+      <y>87</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>7</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(121, 121, 121);</string>
+    </property>
+    <property name="text">
+     <string>Driver ID</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DriverFN">
+    <property name="geometry">
+     <rect>
+      <x>203</x>
+      <y>134</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>7</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(121, 121, 121);</string>
+    </property>
+    <property name="text">
+     <string>First Name</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DriverLN">
+    <property name="geometry">
+     <rect>
+      <x>337</x>
+      <y>134</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>7</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(121, 121, 121);</string>
+    </property>
+    <property name="text">
+     <string>Last Name</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="JeepneyID">
+    <property name="geometry">
+     <rect>
+      <x>503</x>
+      <y>87</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>7</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(121, 121, 121);</string>
+    </property>
+    <property name="text">
+     <string>Jeepney ID</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="JeepneyInfoTitle">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>57</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(25, 4, 130);</string>
+    </property>
+    <property name="text">
+     <string>Jeepney Information</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Origin">
+    <property name="geometry">
+     <rect>
+      <x>503</x>
+      <y>134</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>7</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(121, 121, 121);</string>
+    </property>
+    <property name="text">
+     <string>Origin</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Destination">
+    <property name="geometry">
+     <rect>
+      <x>637</x>
+      <y>134</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>7</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(121, 121, 121);</string>
+    </property>
+    <property name="text">
+     <string>Destination</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TripInfoTitle">
+    <property name="geometry">
+     <rect>
+      <x>417</x>
+      <y>245</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(25, 4, 130);</string>
+    </property>
+    <property name="text">
+     <string>Trip Information</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TripInfoText">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>265</y>
+      <width>301</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(175, 175, 175);</string>
+    </property>
+    <property name="text">
+     <string>Input time of departure, total passenger and total fares collected.</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TimeDepart">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>298</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>7</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(121, 121, 121);</string>
+    </property>
+    <property name="text">
+     <string>Time of Departure</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TotalPassenger">
+    <property name="geometry">
+     <rect>
+      <x>402</x>
+      <y>298</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>7</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(121, 121, 121);</string>
+    </property>
+    <property name="text">
+     <string>Total Passenger</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TotalFares">
+    <property name="geometry">
+     <rect>
+      <x>594</x>
+      <y>298</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>7</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(121, 121, 121);</string>
+    </property>
+    <property name="text">
+     <string>Total Fares Collected</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DispatcherInfoTitle">
+    <property name="geometry">
+     <rect>
+      <x>242</x>
+      <y>430</y>
+      <width>211</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(25, 4, 130);</string>
+    </property>
+    <property name="text">
+     <string>Dispatcher Information</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DispatcherID">
+    <property name="geometry">
+     <rect>
+      <x>203</x>
+      <y>462</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>7</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(121, 121, 121);</string>
+    </property>
+    <property name="text">
+     <string>Dispatcher ID</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DispatcherFN">
+    <property name="geometry">
+     <rect>
+      <x>203</x>
+      <y>508</y>
+      <width>70</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>7</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(121, 121, 121);</string>
+    </property>
+    <property name="text">
+     <string>First Name</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DispatcherLN">
+    <property name="geometry">
+     <rect>
+      <x>337</x>
+      <y>509</y>
+      <width>70</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>7</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(121, 121, 121);</string>
+    </property>
+    <property name="text">
+     <string>Last Name</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnAdd">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>480</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 10px;
+color: rgb(255, 255, 255);
+background-color: rgb(25, 4, 130);</string>
+    </property>
+    <property name="text">
+     <string>Add Record</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnClear">
+    <property name="geometry">
+     <rect>
+      <x>559</x>
+      <y>518</y>
+      <width>132</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 10px;
+border: 1px solid #190482;
+color: rgb(25, 4, 130);
+
+</string>
+    </property>
+    <property name="text">
+     <string>Cancel</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbDriverId">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>103</y>
+      <width>247</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 2.92px;
+border: 1px solid #D9D9D9;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbDriverFN">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>150</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 2.92px;
+border: 1px solid #D9D9D9;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="AddRecordIcon">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>121</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Fare Master - Add Record Pane/20. Add.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbDriverLN">
+    <property name="geometry">
+     <rect>
+      <x>336</x>
+      <y>150</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 2.92px;
+border: 1px solid #D9D9D9;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbJeepneyId">
+    <property name="geometry">
+     <rect>
+      <x>502</x>
+      <y>103</y>
+      <width>247</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 2.92px;
+border: 1px solid #D9D9D9;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cmbOrigin">
+    <property name="geometry">
+     <rect>
+      <x>502</x>
+      <y>151</y>
+      <width>112</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>Lucena</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lucban</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cmbDestination">
+    <property name="geometry">
+     <rect>
+      <x>636</x>
+      <y>151</y>
+      <width>112</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>Lucban</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lucena</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTimeEdit" name="timeDepart">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>315</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spnPassenger">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>315</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="spnFares">
+    <property name="geometry">
+     <rect>
+      <x>592</x>
+      <y>315</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="wrapping">
+     <bool>false</bool>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="maximum">
+     <double>10000000.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbDispatcherId">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>480</y>
+      <width>247</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 2.92px;
+border: 1px solid #D9D9D9;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbDispatcherFN">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>525</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 2.92px;
+border: 1px solid #D9D9D9;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbDispatcherLN">
+    <property name="geometry">
+     <rect>
+      <x>336</x>
+      <y>525</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 2.92px;
+border: 1px solid #D9D9D9;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="JeepneyShape">
+    <property name="geometry">
+     <rect>
+      <x>483</x>
+      <y>-13</y>
+      <width>404</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Fare Master - Add Record Pane/Shape - Drive Information.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TripShape">
+    <property name="geometry">
+     <rect>
+      <x>184</x>
+      <y>216</y>
+      <width>579</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Fare Master - Add Record Pane/Shape - Trip Information.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DispatcherShape">
+    <property name="geometry">
+     <rect>
+      <x>184</x>
+      <y>363</y>
+      <width>404</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Fare Master - Add Record Pane/Shape - Drive Information.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnAddPane">
+    <property name="geometry">
+     <rect>
+      <x>-2</x>
+      <y>116</y>
+      <width>171</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter Medium</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(25, 4, 130);
+color: rgb(255, 255, 255);
+border-radius: 2.92px;
+
+</string>
+    </property>
+    <property name="text">
+     <string>Add Record</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>Fare Master - Add Record Pane/20. Add.png</normaloff>Fare Master - Add Record Pane/20. Add.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnViewData">
+    <property name="geometry">
+     <rect>
+      <x>-2</x>
+      <y>150</y>
+      <width>171</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter Medium</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(25, 4, 130);
+color: rgb(255, 255, 255);
+border-radius: 2.92px;
+
+</string>
+    </property>
+    <property name="text">
+     <string> View Data</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>Fare Master - Add Record Pane/11. Folder.png</normaloff>Fare Master - Add Record Pane/11. Folder.png</iconset>
+    </property>
+   </widget>
+   <zorder>Background</zorder>
+   <zorder>MainShape</zorder>
+   <zorder>JeepneyShape</zorder>
+   <zorder>DriverShape</zorder>
+   <zorder>TripShape</zorder>
+   <zorder>DispatcherShape</zorder>
+   <zorder>Logo</zorder>
+   <zorder>DriverInfoTitle</zorder>
+   <zorder>DriverID</zorder>
+   <zorder>DriverFN</zorder>
+   <zorder>DriverLN</zorder>
+   <zorder>JeepneyID</zorder>
+   <zorder>JeepneyInfoTitle</zorder>
+   <zorder>Origin</zorder>
+   <zorder>Destination</zorder>
+   <zorder>TripInfoTitle</zorder>
+   <zorder>TripInfoText</zorder>
+   <zorder>TimeDepart</zorder>
+   <zorder>TotalPassenger</zorder>
+   <zorder>TotalFares</zorder>
+   <zorder>DispatcherInfoTitle</zorder>
+   <zorder>DispatcherID</zorder>
+   <zorder>DispatcherFN</zorder>
+   <zorder>DispatcherLN</zorder>
+   <zorder>btnClear</zorder>
+   <zorder>tbDriverId</zorder>
+   <zorder>tbDriverFN</zorder>
+   <zorder>tbDriverLN</zorder>
+   <zorder>tbJeepneyId</zorder>
+   <zorder>cmbOrigin</zorder>
+   <zorder>cmbDestination</zorder>
+   <zorder>timeDepart</zorder>
+   <zorder>spnPassenger</zorder>
+   <zorder>spnFares</zorder>
+   <zorder>tbDispatcherId</zorder>
+   <zorder>tbDispatcherFN</zorder>
+   <zorder>tbDispatcherLN</zorder>
+   <zorder>btnAdd</zorder>
+   <zorder>AddRecordIcon</zorder>
+   <zorder>AddRecord</zorder>
+   <zorder>btnAddPane</zorder>
+   <zorder>btnViewData</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

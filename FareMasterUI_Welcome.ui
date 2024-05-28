@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Logo">
+    <property name="geometry">
+     <rect>
+      <x>18</x>
+      <y>30</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Fare Master - Add Record Pane/Logo.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="AddRecord">
+    <property name="geometry">
+     <rect>
+      <x>55</x>
+      <y>123</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Add Record</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ViewData">
+    <property name="geometry">
+     <rect>
+      <x>55</x>
+      <y>156</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>View Data</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Background">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>0</y>
+      <width>811</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(25, 4, 130);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ProgramInfo">
+    <property name="geometry">
+     <rect>
+      <x>14</x>
+      <y>369</y>
+      <width>151</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Fare Master - Add Record Pane/Information.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MainShape">
+    <property name="geometry">
+     <rect>
+      <x>169</x>
+      <y>-7</y>
+      <width>691</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Fare Master - Add Record Pane/Welcome.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="AddRecordIcon">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>121</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Fare Master - Add Record Pane/20. Add.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ViewDataIcon">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>153</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Fare Master - Add Record Pane/11. Folder.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnAddPane">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>116</y>
+      <width>171</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 2.92px;
+background-color: rgb(25, 4, 130);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnViewData">
+    <property name="geometry">
+     <rect>
+      <x>-2</x>
+      <y>149</y>
+      <width>171</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 2.92px;
+background-color: rgb(25, 4, 130);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>Background</zorder>
+   <zorder>MainShape</zorder>
+   <zorder>Logo</zorder>
+   <zorder>ProgramInfo</zorder>
+   <zorder>btnAddPane</zorder>
+   <zorder>AddRecord</zorder>
+   <zorder>AddRecordIcon</zorder>
+   <zorder>btnViewData</zorder>
+   <zorder>ViewDataIcon</zorder>
+   <zorder>ViewData</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
